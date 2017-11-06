@@ -5,10 +5,10 @@ stow = cd config && stow -v -t ~
 install:
 	xargs -d '\n' -a packages/package.list yay --noconfirm -S
 
-installi3: install
+installi3:
 	xargs -d '\n' -a packages/i3.list yay --noconfirm -S
 
-installdev: install
+installdev:
 	xargs -d '\n' -a packages/dev.list yay --noconfirm -S
 
 i3:
@@ -21,6 +21,7 @@ i3:
 	$(stow) keyboard
 	$(stow) easystroke
 	$(stow) rofi
+	$(stow) fonts
 
 xfce:
 	$(stow) xfce4

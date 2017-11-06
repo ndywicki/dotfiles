@@ -34,7 +34,7 @@ modules-right = cpu memory spotify volume date powermenu
 
 [bar/center]
 inherit = bar/default
-monitor = DVI-I-1
+monitor = VGA-1
 modules-right = powermenu
 tray-position = right
 tray-detached = false 
@@ -42,13 +42,13 @@ tray-padding = 0
 
 [bar/left]
 inherit = bar/default
-monitor = HDMI-0
+monitor = VGA-1
 modules-left = 
 modules-right = cpu memory i3
 
 [bar/right]
 inherit = bar/default
-monitor = DVI-D-0
+monitor = VGA-1
 modules-left = i3 volume date
 modules-right = 
 padding-left = 3

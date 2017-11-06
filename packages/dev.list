@@ -1,6 +1,6 @@
 ansible
 dbeaver-ee
-elasticsearch
+elasticsearch2
 elixir
 erlang
 gitkraken
@@ -9,7 +9,8 @@ intellij-idea-ultimate-edition
 jdk
 nodejs
 npm
-postgresql-9.5
+postgresql
 smartgit
 typora
+xdebug
 zeal
